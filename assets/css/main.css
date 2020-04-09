@@ -1675,6 +1675,17 @@ input, select, textarea {
 						}
 
 		}
+		
+	/* Highlighter Off */
+	.noSelect {
+		-webkit-tap-highlight-color: transparent;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
 
 /* Container */
 
@@ -2777,6 +2788,7 @@ input, select, textarea {
 			.features article .inner {
 				display: block;
 				width: 100%;
+				text-align: center;
 			}
 
 		/* Header */
@@ -2906,6 +2918,20 @@ input, select, textarea {
 		/* Main */
 
 		#main > section:first-child {
-			padding: 25em 0 5em 0;
+			padding: 20em 0 15em 0;
 		}
+
+		/* Section/Article */
+
+		header br {
+			display: none;
+		}
+
+		header.major h2 {
+			font-size: 2em;
+		}
+
+			header.major h2 + p {
+				font-size: 1.3em;
+			}
 	}

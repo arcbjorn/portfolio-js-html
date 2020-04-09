@@ -23,28 +23,6 @@
 			}, 100);
 			initTypeWriter();
 		});
-
-	// Typing effects.
-		// const texts = ['Vue', 'Laravel', 'React', 'Angular']
-		// let count = 0;
-		// let index = 0;
-		// let currentText = '';
-		// let letter = '';
-
-		// (function type() {
-		// 	if (count === texts.length) {
-		// 		count = 0;
-		// 	}
-		// 	currentText = texts[count];
-		// 	letter = currentText.slice(0, ++index);
-			
-		// 	document.querySelector('header t').textContent = letter;
-		// 	if (letter.length === currentText.length) {
-		// 		count++;
-		// 		index = 0;
-		// 	}
-		// 	setTimeout(type, 400)
-		// }())
 		
 		function initTypeWriter() {
 			const txtElement = document.querySelector('.typing');
@@ -203,7 +181,7 @@
 		// MenuToggle.
 			$menuToggle = $(
 				'<div id="menuToggle">' +
-					'<a href="#header" class="toggle"></a>' +
+					'<a href="#header" class="toggle noSelect"></a>' +
 				'</div>'
 			)
 				.appendTo($body);
