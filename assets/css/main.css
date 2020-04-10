@@ -1805,6 +1805,10 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
+	header br {
+		display: none;
+	}
+	
 	header.major h2 {
 		color: #ffffff;
 		font-size: 3.5em;
@@ -2763,11 +2767,7 @@ input, select, textarea {
 			}
 
 		/* Section/Article */
-
-			header br {
-				display: none;
-			}
-
+			
 			header.major h2 {
 				font-size: 2.5em;
 			}
@@ -2859,7 +2859,7 @@ input, select, textarea {
 
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 460px) {
 
 		/* Basic */
 
@@ -2922,16 +2922,16 @@ input, select, textarea {
 		}
 
 		/* Section/Article */
+		.typing {
+			margin-left: 0;
+		}
+
+			.typing:before {
+				margin-left: -0.25em;
+				content: "\00a0";
+			}
 
 		header br {
-			display: none;
+			display: inline;
 		}
-
-		header.major h2 {
-			font-size: 2em;
-		}
-
-			header.major h2 + p {
-				font-size: 1.3em;
-			}
-	}
+}
