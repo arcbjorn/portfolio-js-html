@@ -1810,6 +1810,7 @@ input, select, textarea {
 	}
 	
 	header.major h2 {
+		padding-top: 30vh;
 		color: #ffffff;
 		font-size: 3.5em;
 	}
@@ -2477,7 +2478,7 @@ input, select, textarea {
 
 		#main > section:first-child {
 			border-top: 0;
-			padding: 17em 0 7em 0;
+			height: 95vh;
 		}
 
 /* XLarge */
@@ -2520,10 +2521,6 @@ input, select, textarea {
 				padding: 4em 0 2em 0;
 			}
 
-			#main > section:first-child {
-				padding: 25em 0 5em 0;
-			}
-
 	}
 
 /* Large */
@@ -2546,12 +2543,6 @@ input, select, textarea {
 
 			#wrapper {
 				padding-right: 20em;
-			}
-
-		/* Main */
-
-			#main > section:first-child {
-				padding: 30em 0 10em 0;
 			}
 
 	}
@@ -2718,12 +2709,7 @@ input, select, textarea {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
-		
-		/* Main */
 
-			#main > section:first-child {
-				padding: 20em 0 15em 0;
-			}
 	}
 
 /* Small */
@@ -2833,10 +2819,6 @@ input, select, textarea {
 				padding: 2em 0 0 0;
 			}
 
-			#main > section:first-child {
-				padding: 30em 0 12em 0;
-			}
-
 		/* Header Panel */
 
 			#menuToggle .toggle {
@@ -2914,12 +2896,6 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
-
-		/* Main */
-
-		#main > section:first-child {
-			padding: 22em 0 15em 0;
-		}
 
 		/* Section/Article */
 		.typing {
