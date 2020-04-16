@@ -2288,7 +2288,6 @@ input, select, textarea {
 	.library > details > summary {
 		cursor: pointer;
 		background: #364050;
-		margin: 1em;
 		padding: 1em;
 		border-radius: 0.5em;
 		outline: none;
@@ -2308,7 +2307,7 @@ input, select, textarea {
 	
 	.library > details > a {
 		display: block;
-		margin: 1em 3em 1em 3em;
+		margin: 1em 1vw 1em 1vw;
 		padding: 1em;
 		border-radius: 0.5em;
 		-webkit-tap-highlight-color: transparent;
