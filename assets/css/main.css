@@ -2815,7 +2815,7 @@ input, select, textarea {
 		/* Section/Article */
 			
 			header.major h2 {
-				font-size: 2.5em;
+				font-size: 2.4em;
 			}
 
 				header.major h2 + p {
@@ -2958,6 +2958,19 @@ input, select, textarea {
 			}
 
 		/* Section/Article */
+
+		header.major h2 {
+			font-size: 2em;
+		}
+
+			header.major h2 + p {
+				font-size: 1em;
+			}
+		
+		header br {
+			display: inline;
+		}
+
 		.typing {
 			margin-left: 0;
 		}
@@ -2966,8 +2979,4 @@ input, select, textarea {
 				margin-left: -0.25em;
 				content: "\00a0";
 			}
-
-		header br {
-			display: inline;
-		}
 }
