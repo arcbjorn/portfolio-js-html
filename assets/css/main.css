@@ -1727,12 +1727,21 @@ input, select, textarea {
 			}
 
 		}
+		
+			.container > .footer {
+				text-align: center;
+				font-size: small;
+			}
 
 		@media screen and (max-width: 480px) {
 
 			.container {
 				max-width: calc(100% - 3.375em);
 			}
+
+			.container > .footer {
+					font-size: x-small;
+				}
 
 		}
 
@@ -2306,7 +2315,7 @@ input, select, textarea {
 	.library > details > summary {
 		cursor: pointer;
 		background: #364050;
-		padding: 1em;
+		padding: 1em 1em 0.6em 1em;
 		border-radius: 0.5em;
 		outline: none;
 		list-style: none;
@@ -2326,7 +2335,7 @@ input, select, textarea {
 	.library > details > a {
 		display: block;
 		margin: 1em 1vw 1em 1vw;
-		padding: 1em;
+		padding: 1em 1em 0.6em 1em;
 		border-radius: 0.5em;
 		-webkit-tap-highlight-color: transparent;
 		-webkit-touch-callout: none;
@@ -2484,7 +2493,7 @@ input, select, textarea {
 
 					#header > nav ul li a {
 						display: block;
-						padding: 0.4em 1em 0.4em 1em;
+						padding: 0.4em 1em 0.2em 1em;
 						text-decoration: none;
 						border-radius: 0.4em;
 						color: #ffffff;
@@ -2815,7 +2824,7 @@ input, select, textarea {
 		/* Section/Article */
 			
 			header.major h2 {
-				font-size: 2.5em;
+				font-size: 2.4em;
 			}
 
 				header.major h2 + p {
@@ -2958,6 +2967,19 @@ input, select, textarea {
 			}
 
 		/* Section/Article */
+
+		header.major h2 {
+			font-size: 2em;
+		}
+
+			header.major h2 + p {
+				font-size: 1em;
+			}
+		
+		header br {
+			display: inline;
+		}
+
 		.typing {
 			margin-left: 0;
 		}
@@ -2967,7 +2989,4 @@ input, select, textarea {
 				content: "\00a0";
 			}
 
-		header br {
-			display: inline;
-		}
-}
+	}
