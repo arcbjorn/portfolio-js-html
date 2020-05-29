@@ -2318,7 +2318,7 @@ input, select, textarea {
 		justify-content: space-between;
 		cursor: pointer;
 		background: #364050;
-		padding: 1em 1em 0.6em 1em;
+		padding: 1em 1em 1em 1em;
 		border-radius: 0.5em;
 		outline: none;
 		list-style: none;
@@ -2340,7 +2340,7 @@ input, select, textarea {
 		flex-direction: row;
 		justify-content: space-between;
 		margin: 1em 1vw 0em 1vw;
-		padding: 1.1em 1em 0.6em 1em;
+		padding: 1em 1em 1em 1em;
 		border-radius: 0.5em;
 		-webkit-tap-highlight-color: transparent;
 		-webkit-touch-callout: none;
