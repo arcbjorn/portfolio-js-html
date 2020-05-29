@@ -2313,6 +2313,9 @@ input, select, textarea {
 			}
 
 	.library > details > summary {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 		cursor: pointer;
 		background: #364050;
 		padding: 1em 1em 0.6em 1em;
@@ -2333,9 +2336,11 @@ input, select, textarea {
 		}
 	
 	.library > details > a {
-		display: block;
-		margin: 1em 1vw 1em 1vw;
-		padding: 1em 1em 0.6em 1em;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 1em 1vw 0em 1vw;
+		padding: 1.1em 1em 0.6em 1em;
 		border-radius: 0.5em;
 		-webkit-tap-highlight-color: transparent;
 		-webkit-touch-callout: none;
@@ -2349,6 +2354,15 @@ input, select, textarea {
 
 	.library > details > a:hover {
 		background-color: rgba(255, 255, 255, 0.1);
+	}
+
+	.library > details > a > desc {
+		color: black;
+	}
+
+	.library > details > a > imglink > img {
+		height: 1.2em;
+		width: auto;
 	}
 
 /* Header */
@@ -2846,6 +2860,16 @@ input, select, textarea {
 				text-align: center;
 			}
 
+			.library > details > a {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+
+			.library > details > a > imglink {
+				align-self: end;
+			}
+
 		/* Header */
 
 			#header {
@@ -2988,9 +3012,5 @@ input, select, textarea {
 				margin-left: -0.25em;
 				content: "\00a0";
 			}
-<<<<<<< HEAD
 
 	}
-=======
-}
->>>>>>> f9694c7d9b25c9006631d364335c94259f65eb2f
