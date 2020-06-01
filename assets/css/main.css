@@ -2334,7 +2334,7 @@ input, select, textarea {
 		.library > details > summary::-webkit-details-marker {
 			display: none;
 		}
-	
+
 	.library > details > a {
 		display: flex;
 		flex-direction: row;
@@ -3002,6 +3002,10 @@ input, select, textarea {
 		
 		header br {
 			display: inline;
+		}
+
+		.library:first-child > details > summary {
+			flex-direction: row-reverse;
 		}
 
 		.typing {
